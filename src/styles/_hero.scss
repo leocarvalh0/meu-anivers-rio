@@ -1,3 +1,5 @@
+@use "variables";
+
 .hero {
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
@@ -16,7 +18,7 @@
         font-weight: normal;
         text-align: center;
         margin: 0 auto;
-        color: #fff;
+        color: variables.$corTextoPrincipal;
         line-height: 56px;
     }
 
@@ -26,7 +28,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #000;
+        background-color: variables.$corTextoSecundario;
         content: '';
         opacity: 0.6;
     }

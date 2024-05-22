@@ -1,7 +1,8 @@
 @use "buttons";
+@use "../variables";
 
 .infos-bar {
-    background-color: #fff;
+    background-color: variables.$corTextoPrincipal;
     display: flex;
     justify-content: space-around;
     align-items: center;

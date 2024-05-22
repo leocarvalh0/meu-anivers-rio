@@ -1,6 +1,8 @@
+@use "../variables";
+
 .button {
     text-decoration: none;
-    background-color: #E0B9FF;
+    background-color: variables.$corBotao;
     font-size: 18px;
     padding: 10px;
     height: 40px;
