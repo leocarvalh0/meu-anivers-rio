@@ -1,0 +1,31 @@
+@use "buttons";
+
+.infos-bar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+
+    &__infos {
+        display: flex;
+        gap: 40px;
+
+        b {
+            display: block;
+        }
+    }
+
+    @media (max-width: 640px) {
+        flex-direction: column;
+
+        &__infos {
+            display: block;
+
+            &__item {
+                margin-bottom: 24px;
+            }
+        }
+    }
+}
